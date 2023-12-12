@@ -1,0 +1,33 @@
+.write-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #232323;
+  padding: 10px;
+  border-radius: 20px;
+
+  .recipient-input{
+    width: 400px;
+    height: 35px;
+  }
+
+  .theme-input{
+    width: 400px;
+    height: 35px;
+  }
+
+  .error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #af0000;
+  }
+
+  .send-button{
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,40 @@
+.sended-mail-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #232323;
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+
+  .not-mail {
+    background-color: #8a8a8a;
+    color: aliceblue;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .link{
+      width: 100%;
+      cursor: pointer;
+
+      .open-message{
+        background-color: #8a8a8a;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        & p {
+          background-color: transparent;
+          font-size: 20px;
+        }
+
+      }
+    }
+
+}

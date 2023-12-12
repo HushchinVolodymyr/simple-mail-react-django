@@ -1,0 +1,9 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.page-container{
+    height: 100vh;
+}

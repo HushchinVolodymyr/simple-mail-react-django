@@ -1,0 +1,26 @@
+.mail-item{
+  height: 30px;
+  padding: 5px;
+  text-indent: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: #8a8a8a;
+  width: 99%;
+  border-radius: 10px;
+
+
+
+
+  & h1{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  & h2{
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+}

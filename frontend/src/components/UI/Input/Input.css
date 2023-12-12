@@ -1,0 +1,30 @@
+.ui-input {
+  outline: none;
+  border: none;
+  background-color: #8a8a8a;
+  text-indent: 10px;
+  color: #000000;
+  border-radius: 15px;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+}
+.ui-input::-webkit-input-placeholder {
+  color: inherit;
+  text-indent: 10px;
+}
+.ui-input::-moz-placeholder {
+  color: inherit;
+  text-indent: 10px;
+}
+.ui-input:-ms-input-placeholder {
+  color: inherit;
+  text-indent: 10px;
+}
+.ui-input::-ms-input-placeholder {
+  color: inherit;
+  text-indent: 10px;
+}
+.ui-input::placeholder {
+  color: inherit;
+  text-indent: 10px;
+}

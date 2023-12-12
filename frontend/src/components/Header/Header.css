@@ -1,0 +1,51 @@
+.header{
+    background-color: #232323;
+    height: 60px;
+}
+
+.header-container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo{
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.sign-in{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+}
+
+a{
+    background-color: transparent;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.drop-down{
+    background-color: #8a8a8a;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 110%;
+    left: -50%;
+    z-index: revert;
+    width: 100px;
+    font-size: 25px;
+}

@@ -1,0 +1,42 @@
+.sidebar-container{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232323;
+  border-radius: 20px;
+  gap: 5px;
+  padding: 15px;
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+
+
+  & .link{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: transparent;
+    text-decoration: none;
+    text-indent: 15px;
+    transition: .75s ease;
+
+    &:hover{
+      color: #232323;
+      background-color: #8a8a8a;
+      font-size: 27px;
+      border-radius: 5px;
+    }
+
+    &.selected {
+      color: #232323;
+      background-color: #8a8a8a;
+      font-size: 27px;
+      border-radius: 5px;
+    }
+
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  background-color: #8a8a8a;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  transition: .75s ease;
+
+  &:hover{
+    scale: 1.05;
+  }
+}

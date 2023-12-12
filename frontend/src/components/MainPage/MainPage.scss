@@ -1,0 +1,26 @@
+.main-page-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+
+  .sidebar-container{
+    width: 15%;
+  }
+
+  .box-container{
+    width: 80%;
+    min-height: 2%;
+  }
+  .write-container{
+    width: 80%;
+  }
+  .sended-mail-container{
+    width: 80%;
+  }
+
+  .recived-mail-container{
+    width: 80%;
+  }
+
+}

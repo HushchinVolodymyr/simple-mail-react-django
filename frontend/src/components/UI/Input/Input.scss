@@ -1,0 +1,16 @@
+.ui-input {
+  outline: none;
+  border: none;
+  background-color: #8a8a8a;
+  text-indent: 10px;
+  color: #000000;
+  border-radius: 15px;
+
+  transition: .75s ease;
+
+  &::placeholder {
+    color: inherit;
+    text-indent: 10px;
+  }
+
+}
